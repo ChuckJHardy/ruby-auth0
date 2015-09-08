@@ -47,7 +47,7 @@ describe Auth0::Client do
     let(:headers) { client.class.headers }
 
     let(:base64_token) {
-      Base64.urlsafe_encode64('{"name":"ruby-auth0","version":"'+Auth0::VERSION+'"}')
+      Base64.urlsafe_encode64('{"name":"ruby-auth0","version":"'+Auth0::AUTH0_VERSION+'"}')
     }
 
     it "has the correct headers present" do

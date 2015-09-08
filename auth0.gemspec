@@ -4,7 +4,7 @@ require "auth0/version"
 
 Gem::Specification.new do |s|
   s.name        = "auth0"
-  s.version     = Auth0::VERSION
+  s.version     = Auth0::AUTH0_VERSION
   s.authors     = ["Auth0", "Jose Romaniello", "Ivan Petroe", "Patrik Ragnarsson"]
   s.email       = ["support@auth0.com"]
   s.homepage    = "https://github.com/auth0/ruby-auth0"

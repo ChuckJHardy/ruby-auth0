@@ -29,7 +29,7 @@ module Auth0
       private
 
       def client_headers(config)
-        client_info = JSON.dump({name: 'ruby-auth0', version: Auth0::VERSION})
+        client_info = JSON.dump({name: 'ruby-auth0', version: Auth0::AUTH0_VERSION})
 
         headers = {
           'Content-Type' => 'application/json'
